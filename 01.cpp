@@ -2,8 +2,12 @@
 using namespace std;
 
 class Teacher{
-public:
+// here we have created salary a private data so that other class or main function cannot access it.
+// private:
+// double salary;
 
+
+public:
 // attributes
 string name;
 string dept;
