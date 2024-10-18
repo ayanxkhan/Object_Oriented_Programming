@@ -18,7 +18,7 @@ class Print{
 
 int main(){
     Print P1;
-    P1.Show('*');
+    P1.Show(2);
 
 
     return 0;

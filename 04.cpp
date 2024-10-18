@@ -31,3 +31,49 @@ int main(){
 
     return 0;
 }
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// class Student{
+// public:
+
+// string name;
+// string subject;
+// int age;
+// int rollNo;
+
+// // void changeSubject(string sub){
+// //     subject = sub;
+// // }
+
+// Student(string name,string subject,int age,int rollNo){
+//     this->name=name;
+//     this->subject=subject;
+//     this->age=age;
+//     this->rollNo=rollNo;
+// }
+
+// void printInfo(){
+//     cout << "Name = " << name << endl;
+//     cout << "Subject = " << subject << endl;
+//     cout << "Age = " << age << endl;
+//     cout << "RollNo = " << rollNo << endl;
+// }
+
+
+
+// };
+
+// int main(){
+//     Student s1("Ayan Khan","OS",21,404);
+//     // s1.name="Ayan";
+//     // s1.subject="DSA";
+//     // s1.changeSubject("OOPS");
+
+//     s1.printInfo();
+//     return 0;
+// }
