@@ -61,3 +61,30 @@ int main(){
 
     return 0;
 }
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+class Parent{
+public:
+    string name;
+    int age;
+    int phone;
+
+    void changePhone(int phone){
+        int newPhone = phone;
+        cout << newPhone;
+    }
+};
+
+int main(){
+    Parent p1;
+    p1.name="Riyaz khan";
+    cout << p1.name << endl;
+
+    Parent p2;
+    p2.changePhone(432);
+    return 0;
+}
